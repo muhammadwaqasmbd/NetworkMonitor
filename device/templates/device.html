@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Network Scanner</title>
+      <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+
+    <style type="text/css">
+        .navbar{
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+  </head>
+  <body>
+
+  <script type='text/javascript'>
+    $(document).ready(function(){
+        $("#home").click(function(){
+            window.location='/live';
+        });
+        $("#device").click(function(){
+            window.location='/device';
+        });
+        $("#historic").click(function(){
+            window.location='/historic';
+        });
+        /*text = $("#devicefilter :selected").text();
+        $("#selectedDevice").val(text);
+        val = $("#devicefilter :selected").val();
+        $("#selectedMAC").val(val);*/
+
+        $("#filtersubmit").click(function(){
+            var datastring = $("#filterform").serialize();
+            $.ajax({
+                type: "POST",
+                url: "/device",
+                data: datastring,
+                dataType: "json",
+                success: function(data) {
+                    var plot = data.data.plot;
+                    var bytes = data.data.bytes;
+                    var ips = data.data.ips;
+                    var traffic = data.data.traffic;
+                    console.log(plot)
+                    console.log(data)
+                    $('#graph').attr('src','data:image/png;base64,'+plot+'');
+                    $('#bytes').html(bytes+" bytes sent")
+                    $('#ips').html(ips)
+                    var body = '';
+                    $(traffic).each(function(idx, item) {
+                         body = body + '<div class="row">';
+                        $.each(item, function(key, value) {
+                            body = body + '<div class="col-lg-3"> '+value+'</div>'
+                        });
+                        body = body + '</div>';
+                    });
+                    $('#traffic').html(body)
+                },
+                error: function(error) {
+                }
+            });
+        });
+
+        $("#devicefilter").change(function(){
+            text = $(this).find("option:selected").text();
+            val = $(this).find("option:selected").val();
+          $("#selectedDevice").val(text);
+          $("#selectedMAC").val(val);
+        });
+    });
+    </script>
+      <ul class="nav nav-pills navbar">
+      <li class="nav-item">
+        <a class="nav-link" id="home" data-toggle="pill" href="#">LIVE DATA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  id="historic" data-toggle="pill"  href="#">HISTORIC DATA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" id="device" data-toggle="pill" href="#">DEVICE DATA</a>
+      </li>
+    </ul>
+  {% load nbsp %}
+    <div class="row">
+        <div class="col-lg-5" style="text-align: center">
+            <h3>Summary Data</h3>
+            <span id="bytes">{{  data.bytes }} bytes sent</span><br/>
+            <span id="ips">{{  data.ips }}</span>
+
+            <h3>Traffic Destinations</h3>
+            <div class="row">
+                    <div class="col-lg-3">IP Address</div>
+                    <div class="col-lg-3">Country</div>
+                    <div class="col-lg-3">Packets</div>
+                    <div class="col-lg-3">Traffic /Bytes</div>
+                </div>
+        <div id="traffic">
+            {% for dictItem in data.traffic %}
+                <div class="row">
+                    {% for key, value in dictItem.items %}
+                        <div class="col-lg-3"> {{ value }}</div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="col-lg-4" style="text-align:center">
+            <span style="text-align:center"><strong>Packets by Protocol</strong></span>
+               <img  id="graph" src="data:image/png;base64,{{ data.plot }}" alt="" height="auto" ,width="auto">
+          </div>
+          <div class="col-lg-2">
+             <form method="post" novalidate id="filterform" name="devicefilterform">
+                 {% csrf_token %}
+                <tr>
+                    <td><span>Show</span>
+                        <select name="device" id="devicefilter" class="form-control">
+                        <option value="">Select Device</option>
+                            {% for mac, device in data.devices.items %}
+                                <option value={{ mac }}>{{ device  | nbsp}}</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                    <td><span>Between</span><input id="startdate" name="startdate" class="form-control" type="date"/></td>
+                    <td><span>And</span><input id="enddate" name="enddate" class="form-control" type="date"/></td>
+                    <td>
+                        <button type="button"  id="filtersubmit" class="btn btn-primary">
+                          <i class="icon-user icon-whiteUpdate"></i> Submit
+                        </button>
+                    </td>
+                </tr>
+              </form>
+            <h3 style="margin-top: 150px"><input value="" class="form-control" disabled id="selectedDevice"/><input value="" class="form-control" disabled id="selectedMAC"/></h3>
+         </div>
+      </div>
+  </body>
+</html>

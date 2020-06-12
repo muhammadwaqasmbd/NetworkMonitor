@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Network Scanner</title>
+      <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+
+    <style type="text/css">
+        .navbar{
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+  </head>
+  <body>
+
+  <script type='text/javascript'>
+    $(document).ready(function(){
+        $("#home").click(function(){
+            window.location='/live';
+        });
+        $("#device").click(function(){
+            window.location='/device';
+        });
+        $("#historic").click(function(){
+            window.location='/historic';
+        });
+    });
+    </script>
+      <ul class="nav nav-pills navbar">
+      <li class="nav-item">
+        <a class="nav-link" id="home" data-toggle="pill" href="#">LIVE DATA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active"  id="historic" data-toggle="pill"  href="#">HISTORIC DATA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="device" data-toggle="pill" href="#">DEVICE DATA</a>
+      </li>
+    </ul>
+    <div class="row">
+          <div class="col-lg-10">
+               <img src="data:image/png;base64,{{ data.plot }}" alt="" height="auto" ,width="auto">
+          </div>
+        <div class="col-lg-2">
+             <form method="post" novalidate name="historicform">
+                 {% csrf_token %}
+                <tr>
+                    <td><span>Show</span>
+                        <select name="type" class="form-control">
+                            <option value="protocol">Protocol</option>
+                            <option value="country">Country</option>
+                        </select>
+                    </td>
+                    <td><span>Between</span><input id="startdate" name="startdate" class="form-control" type="date"/></td>
+                    <td><span>And</span><input id="enddate" name="enddate" class="form-control" type="date"/></td>
+                    <td>
+                        <button type="submit" class="btn btn-primary">
+                          <i class="icon-user icon-whiteUpdate"></i> Submit
+                        </button>
+                    </td>
+                </tr>
+              </form>
+         </div>
+      </div>
+  </body>
+</html>

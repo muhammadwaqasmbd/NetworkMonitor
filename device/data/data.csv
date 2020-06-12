@@ -1,0 +1,118 @@
+protocol,device,vendor, source_ip,source_port,source_mac,destination_ip,destination_port,destination_mac,destination_country,packets_length,datetime
+UDP,Unknown-Device,"Apple, Inc.",192.168.1.103,5353,98:00:c6:b5:e8:8b,224.0.0.251,5353,01:00:5e:00:00:fb,Unknown,103,2020-05-28 18:27:06.218194
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,44005,e0:94:67:ca:72:a9,51.89.98.181,443,18:d6:c7:ad:d6:e2,France,66,2020-05-28 18:27:07.054168
+UDP,Unknown-Device,"Apple, Inc.",192.168.1.103,5353,98:00:c6:b5:e8:8b,224.0.0.251,5353,01:00:5e:00:00:fb,Unknown,103,2020-05-28 18:27:09.662875
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,45200,e0:94:67:ca:72:a9,192.168.22.36,53,18:d6:c7:ad:d6:e2,Unknown,100,2020-05-28 18:27:09.665269
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,60057,e0:94:67:ca:72:a9,192.168.22.36,53,18:d6:c7:ad:d6:e2,Unknown,100,2020-05-28 18:27:09.666914
+UDP,Unknown-Device,"Tp-Link Technologies Co.,Ltd.",192.168.22.36,53,18:d6:c7:ad:d6:e2,192.168.1.102,45200,e0:94:67:ca:72:a9,Unknown,132,2020-05-28 18:27:09.668579
+UDP,Unknown-Device,"Tp-Link Technologies Co.,Ltd.",192.168.22.36,53,18:d6:c7:ad:d6:e2,192.168.1.102,60057,e0:94:67:ca:72:a9,Unknown,161,2020-05-28 18:27:09.924384
+UDP,Unknown-Device,"Apple, Inc.",192.168.1.103,5353,98:00:c6:b5:e8:8b,224.0.0.251,5353,01:00:5e:00:00:fb,Unknown,103,2020-05-28 18:27:10.719605
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,36422,e0:94:67:ca:72:a9,35.224.99.156,80,18:d6:c7:ad:d6:e2,United States,74,2020-05-28 18:27:10.802809
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,36422,e0:94:67:ca:72:a9,35.224.99.156,80,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 18:27:10.805847
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,36422,e0:94:67:ca:72:a9,35.224.99.156,80,18:d6:c7:ad:d6:e2,United States,153,2020-05-28 18:27:10.975202
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,36422,e0:94:67:ca:72:a9,35.224.99.156,80,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 18:27:10.978958
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,36422,e0:94:67:ca:72:a9,35.224.99.156,80,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 18:27:11.231277
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,38380,e0:94:67:ca:72:a9,92.122.250.119,443,18:d6:c7:ad:d6:e2,Unknown,66,2020-05-28 18:27:12.602597
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,60467,e0:94:67:ca:72:a9,108.177.119.189,443,18:d6:c7:ad:d6:e2,United States,65,2020-05-28 18:27:13.091462
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,44005,e0:94:67:ca:72:a9,51.89.98.181,443,18:d6:c7:ad:d6:e2,France,66,2020-05-28 18:27:16.511432
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,56520,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,97,2020-05-28 18:27:16.805688
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,56520,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 18:27:18.850419
+UDP,Unknown-Device,"Apple, Inc.",192.168.1.103,5353,98:00:c6:b5:e8:8b,224.0.0.251,5353,01:00:5e:00:00:fb,Unknown,103,2020-05-28 18:27:19.102835
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,38486,e0:94:67:ca:72:a9,3.235.82.197,443,18:d6:c7:ad:d6:e2,United States,96,2020-05-28 18:27:19.365042
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,39142,e0:94:67:ca:72:a9,52.202.62.217,443,18:d6:c7:ad:d6:e2,United States,101,2020-05-28 18:27:19.367817
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,39142,e0:94:67:ca:72:a9,52.202.62.217,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 18:27:22.471521
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,52174,e0:94:67:ca:72:a9,35.171.35.217,443,18:d6:c7:ad:d6:e2,United States,104,2020-05-28 18:27:22.721423
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,52174,e0:94:67:ca:72:a9,35.171.35.217,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 18:27:24.803035
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,60986,e0:94:67:ca:72:a9,173.194.76.188,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 18:27:24.835096
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,43998,e0:94:67:ca:72:a9,104.18.254.23,443,18:d6:c7:ad:d6:e2,United States,54,2020-05-28 18:27:25.160726
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,60467,e0:94:67:ca:72:a9,108.177.119.189,443,18:d6:c7:ad:d6:e2,United States,71,2020-05-28 18:27:25.599360
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,38486,e0:94:67:ca:72:a9,3.235.82.197,443,18:d6:c7:ad:d6:e2,United States,283,2020-05-28 18:27:25.856200
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,38486,e0:94:67:ca:72:a9,3.235.82.197,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 18:27:26.366942
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,44005,e0:94:67:ca:72:a9,51.89.98.181,443,18:d6:c7:ad:d6:e2,France,66,2020-05-28 18:27:27.134960
+UDP,Unknown-Device,"Apple, Inc.",192.168.1.103,5353,98:00:c6:b5:e8:8b,224.0.0.251,5353,01:00:5e:00:00:fb,Unknown,159,2020-05-28 18:27:29.535181
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,56520,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,97,2020-05-28 18:27:29.791319
+UDP,Unknown-Device,"Murata Manufacturing Co., Ltd.",192.168.1.104,5353,98:f1:70:7b:e8:f3,224.0.0.251,5353,01:00:5e:00:00:fb,Unknown,103,2020-05-28 18:28:04.279415
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,38486,e0:94:67:ca:72:a9,3.235.82.197,443,18:d6:c7:ad:d6:e2,United States,96,2020-05-28 18:28:04.518184
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,53712,e0:94:67:ca:72:a9,192.168.22.36,53,18:d6:c7:ad:d6:e2,Unknown,97,2020-05-28 18:28:04.523266
+UDP,Unknown-Device,"Tp-Link Technologies Co.,Ltd.",192.168.22.36,53,18:d6:c7:ad:d6:e2,192.168.1.102,53712,e0:94:67:ca:72:a9,Unknown,132,2020-05-28 18:28:04.526718
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,53712,e0:94:67:ca:72:a9,192.168.22.36,53,18:d6:c7:ad:d6:e2,Unknown,86,2020-05-28 18:28:04.528620
+UDP,Unknown-Device,"Tp-Link Technologies Co.,Ltd.",192.168.22.36,53,18:d6:c7:ad:d6:e2,192.168.1.102,53712,e0:94:67:ca:72:a9,Unknown,121,2020-05-28 18:28:04.531592
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,57089,e0:94:67:ca:72:a9,192.168.22.36,53,18:d6:c7:ad:d6:e2,Unknown,86,2020-05-28 18:28:04.767875
+UDP,Unknown-Device,"Tp-Link Technologies Co.,Ltd.",192.168.22.36,53,18:d6:c7:ad:d6:e2,192.168.1.102,57089,e0:94:67:ca:72:a9,Unknown,102,2020-05-28 18:28:04.770407
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,41039,e0:94:67:ca:72:a9,216.58.207.3,443,18:d6:c7:ad:d6:e2,United States,1392,2020-05-28 18:28:04.834910
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,41039,e0:94:67:ca:72:a9,216.58.207.3,443,18:d6:c7:ad:d6:e2,United States,435,2020-05-28 18:28:04.837227
+UDP,Unknown-Device,"Murata Manufacturing Co., Ltd.",192.168.1.104,5353,98:f1:70:7b:e8:f3,224.0.0.251,5353,01:00:5e:00:00:fb,Unknown,103,2020-05-28 18:28:05.024609
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,41039,e0:94:67:ca:72:a9,216.58.207.3,443,18:d6:c7:ad:d6:e2,United States,70,2020-05-28 18:28:05.028624
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,41039,e0:94:67:ca:72:a9,216.58.207.3,443,18:d6:c7:ad:d6:e2,United States,427,2020-05-28 18:28:05.031822
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,41039,e0:94:67:ca:72:a9,216.58.207.3,443,18:d6:c7:ad:d6:e2,United States,70,2020-05-28 18:28:05.791120
+UDP,Unknown-Device,"Murata Manufacturing Co., Ltd.",192.168.1.104,5353,98:f1:70:7b:e8:f3,224.0.0.251,5353,01:00:5e:00:00:fb,Unknown,103,2020-05-28 18:28:07.332886
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,44005,e0:94:67:ca:72:a9,51.89.98.181,443,18:d6:c7:ad:d6:e2,France,66,2020-05-28 18:28:07.841566
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,60467,e0:94:67:ca:72:a9,108.177.119.189,443,18:d6:c7:ad:d6:e2,United States,65,2020-05-28 18:28:07.844208
+UDP,Unknown-Device,"Murata Manufacturing Co., Ltd.",192.168.1.104,5353,98:f1:70:7b:e8:f3,224.0.0.251,5353,01:00:5e:00:00:fb,Unknown,103,2020-05-28 18:28:09.951158
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,60986,e0:94:67:ca:72:a9,173.194.76.188,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 18:28:09.953751
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,43998,e0:94:67:ca:72:a9,104.18.254.23,443,18:d6:c7:ad:d6:e2,United States,54,2020-05-28 18:28:12.031040
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,52174,e0:94:67:ca:72:a9,35.171.35.217,443,18:d6:c7:ad:d6:e2,United States,104,2020-05-28 18:28:13.059072
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,52174,e0:94:67:ca:72:a9,35.171.35.217,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 18:28:13.567527
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,56520,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,97,2020-05-28 18:28:13.570050
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,56520,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 18:28:15.106789
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,44005,e0:94:67:ca:72:a9,51.89.98.181,443,18:d6:c7:ad:d6:e2,France,66,2020-05-28 18:28:18.014405
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,41039,e0:94:67:ca:72:a9,216.58.207.3,443,18:d6:c7:ad:d6:e2,United States,65,2020-05-28 18:28:19.809856
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,39142,e0:94:67:ca:72:a9,52.202.62.217,443,18:d6:c7:ad:d6:e2,United States,101,2020-05-28 18:28:20.064302
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,39142,e0:94:67:ca:72:a9,52.202.62.217,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 18:28:22.623144
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,60467,e0:94:67:ca:72:a9,108.177.119.189,443,18:d6:c7:ad:d6:e2,United States,71,2020-05-28 18:28:22.878728
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,47722,e0:94:67:ca:72:a9,239.255.255.250,1900,01:00:5e:7f:ff:fa,Unknown,214,2020-05-28 18:28:24.182176
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,57858,e0:94:67:ca:72:a9,13.35.175.88,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 18:28:24.186325
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,47722,e0:94:67:ca:72:a9,239.255.255.250,1900,01:00:5e:7f:ff:fa,Unknown,214,2020-05-28 18:28:24.188952
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,47722,e0:94:67:ca:72:a9,239.255.255.250,1900,01:00:5e:7f:ff:fa,Unknown,214,2020-05-28 18:28:25.982617
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,38486,e0:94:67:ca:72:a9,3.235.82.197,443,18:d6:c7:ad:d6:e2,United States,283,2020-05-28 18:28:26.239986
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,47722,e0:94:67:ca:72:a9,239.255.255.250,1900,01:00:5e:7f:ff:fa,Unknown,214,2020-05-28 18:28:26.242272
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,38486,e0:94:67:ca:72:a9,3.235.82.197,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 18:28:27.779234
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,44005,e0:94:67:ca:72:a9,51.89.98.181,443,18:d6:c7:ad:d6:e2,France,66,2020-05-28 18:28:28.287882
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,44005,e0:94:67:ca:72:a9,51.89.98.181,443,18:d6:c7:ad:d6:e2,France,66,2020-05-28 18:28:28.291789
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,56520,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,97,2020-05-28 18:28:31.713977
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,42598,e0:94:67:ca:72:a9,34.204.33.147,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 19:50:33.535787
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,42598,e0:94:67:ca:72:a9,34.204.33.147,443,18:d6:c7:ad:d6:e2,United States,101,2020-05-28 19:50:33.558434
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,40274,e0:94:67:ca:72:a9,192.168.22.35,53,18:d6:c7:ad:d6:e2,Unknown,97,2020-05-28 19:50:33.854745
+UDP,Unknown-Device,"Tp-Link Technologies Co.,Ltd.",192.168.22.35,53,18:d6:c7:ad:d6:e2,192.168.1.102,40274,e0:94:67:ca:72:a9,Unknown,132,2020-05-28 19:50:33.880539
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,40274,e0:94:67:ca:72:a9,192.168.22.35,53,18:d6:c7:ad:d6:e2,Unknown,86,2020-05-28 19:50:33.886970
+UDP,Unknown-Device,"Tp-Link Technologies Co.,Ltd.",192.168.22.35,53,18:d6:c7:ad:d6:e2,192.168.1.102,40274,e0:94:67:ca:72:a9,Unknown,121,2020-05-28 19:50:33.895143
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,44005,e0:94:67:ca:72:a9,51.89.98.181,443,18:d6:c7:ad:d6:e2,France,66,2020-05-28 19:50:34.037440
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,35130,e0:94:67:ca:72:a9,192.168.22.35,53,18:d6:c7:ad:d6:e2,Unknown,97,2020-05-28 19:50:34.043877
+UDP,Unknown-Device,"Tp-Link Technologies Co.,Ltd.",192.168.22.35,53,18:d6:c7:ad:d6:e2,192.168.1.102,35130,e0:94:67:ca:72:a9,Unknown,132,2020-05-28 19:50:34.050456
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,35130,e0:94:67:ca:72:a9,192.168.22.35,53,18:d6:c7:ad:d6:e2,Unknown,86,2020-05-28 19:50:34.057795
+UDP,Unknown-Device,"Tp-Link Technologies Co.,Ltd.",192.168.22.35,53,18:d6:c7:ad:d6:e2,192.168.1.102,35130,e0:94:67:ca:72:a9,Unknown,121,2020-05-28 19:50:39.617601
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,35816,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,97,2020-05-28 19:50:39.648649
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,35816,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 19:50:39.876596
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,35816,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 19:50:39.881041
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,35816,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 19:50:40.133665
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,35816,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 19:50:40.144492
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,35816,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 19:50:40.392266
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,35816,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 19:50:40.415157
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,35816,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 19:50:40.428301
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,35816,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 19:50:40.439254
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,35816,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 19:50:42.435485
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,39746,e0:94:67:ca:72:a9,52.7.188.222,443,18:d6:c7:ad:d6:e2,United States,104,2020-05-28 19:50:42.746421
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,39746,e0:94:67:ca:72:a9,52.7.188.222,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 19:50:44.260966
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,44005,e0:94:67:ca:72:a9,51.89.98.181,443,18:d6:c7:ad:d6:e2,France,66,2020-05-28 19:50:50.046282
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,44588,e0:94:67:ca:72:a9,64.233.166.188,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-28 19:50:50.939805
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,36498,e0:94:67:ca:72:a9,104.16.27.34,443,18:d6:c7:ad:d6:e2,United States,54,2020-05-28 19:50:52.453181
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,44760,e0:94:67:ca:72:a9,104.18.254.23,443,18:d6:c7:ad:d6:e2,United States,54,2020-05-28 19:50:52.711363
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,38486,e0:94:67:ca:72:a9,3.235.82.197,443,18:d6:c7:ad:d6:e2,United States,96,2020-05-28 19:50:52.750861
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,38486,e0:94:67:ca:72:a9,3.235.82.197,443,18:d6:c7:ad:d6:e2,United States,96,2020-05-28 19:50:53.218207
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,46369,e0:94:67:ca:72:a9,51.83.239.144,80,18:d6:c7:ad:d6:e2,France,66,2020-05-29 11:35:25.939163
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,52747,e0:94:67:ca:72:a9,192.168.22.36,53,18:d6:c7:ad:d6:e2,Unknown,97,2020-05-29 11:35:26.546812
+UDP,Unknown-Device,"Tp-Link Technologies Co.,Ltd.",192.168.22.36,53,18:d6:c7:ad:d6:e2,192.168.1.102,52747,e0:94:67:ca:72:a9,Unknown,132,2020-05-29 11:35:26.603465
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,52747,e0:94:67:ca:72:a9,192.168.22.36,53,18:d6:c7:ad:d6:e2,Unknown,86,2020-05-29 11:35:26.606381
+UDP,Unknown-Device,"Tp-Link Technologies Co.,Ltd.",192.168.22.36,53,18:d6:c7:ad:d6:e2,192.168.1.102,52747,e0:94:67:ca:72:a9,Unknown,121,2020-05-29 11:35:26.707483
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,37769,e0:94:67:ca:72:a9,192.168.22.36,53,18:d6:c7:ad:d6:e2,Unknown,97,2020-05-29 11:35:26.717883
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,43043,e0:94:67:ca:72:a9,5.9.112.244,80,18:d6:c7:ad:d6:e2,Germany,66,2020-05-29 12:14:55.219430
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,40762,e0:94:67:ca:72:a9,52.72.231.90,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-29 12:14:59.182943
+UDP,Muhammad Waqas,Intel Corporate,192.168.1.102,34960,e0:94:67:ca:72:a9,91.189.94.4,123,18:d6:c7:ad:d6:e2,United Kingdom,90,2020-05-29 12:15:01.123953
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,43782,e0:94:67:ca:72:a9,176.9.146.200,443,18:d6:c7:ad:d6:e2,Germany,66,2020-05-29 12:15:01.183076
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,43782,e0:94:67:ca:72:a9,176.9.146.200,443,18:d6:c7:ad:d6:e2,Germany,66,2020-05-29 12:15:01.191998
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,43043,e0:94:67:ca:72:a9,5.9.112.244,80,18:d6:c7:ad:d6:e2,Germany,66,2020-05-29 12:15:02.093834
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,44346,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,97,2020-05-29 12:15:02.101656
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,50696,e0:94:67:ca:72:a9,74.125.206.188,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-29 13:23:01.290090
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,45414,e0:94:67:ca:72:a9,99.83.135.170,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-29 13:23:48.043520
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,44346,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,97,2020-05-29 13:23:49.936053
+TCP,Muhammad Waqas,Intel Corporate,192.168.1.102,44346,e0:94:67:ca:72:a9,157.240.13.54,443,18:d6:c7:ad:d6:e2,United States,66,2020-05-29 13:23:53.615670
